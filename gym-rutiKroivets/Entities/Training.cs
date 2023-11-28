@@ -6,6 +6,8 @@
         public string  Title { get; set; }
         public int Day { get; set; }
         public double Hour { get; set; }
+        public Guide Guid { get; set; }
+        public List<Student> Students { get; set; }
 
     }
 }

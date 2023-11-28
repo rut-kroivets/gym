@@ -1,5 +1,6 @@
 ﻿using gym_rutiKroivets.Entities;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Cryptography;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -10,7 +11,7 @@ namespace gym_rutiKroivets.Controllers
     public class TrainingController : ControllerBase
     {
         private static int Tid = 0;
-        public static List<Training> trainings = new List<Training> { new Training { Id = ++Tid, Title = "defult", Day=0,Hour=0 } };
+        public static List<Training> trainings = new List<Training> { new Training { Id = ++Tid, Title = "defult", Day=0,Hour=0,Guid= new Guide { Id = 1, Name = "defult", Address = "hadasim", Seniority = 0 },  Students = new List<Student> { new Student { Id = 2, Name = "rivki", Address = "Pardo", Age = 19 } } } };
         // GET: api/<ValuesController>
         [HttpGet]
         public IEnumerable<Training> Get()

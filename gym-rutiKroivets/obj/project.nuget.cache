@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w3LmKPwD0DouY121kIZGKYnZfPzekzcBi9Ve4kqXYmXFMAxJOdgNm6qh3VBTiN38FrcVdHLv/En6z0n1m05VgQ==",
+  "dgSpecHash": "HmK0jefCUq4RRZBGhcuSARjCwa6WF0N60O+9fjwWZ87QTwtGujA/t3kf54/0ZREE5jpqIQ4U2a5U9DEN9S1BgQ==",
   "success": true,
-  "projectFilePath": "E:\\שנה ב תשפד\\דוטנט\\gym-rutiKroivets\\gym-rutiKroivets\\gym-rutiKroivets.csproj",
+  "projectFilePath": "C:\\Users\\user1\\OneDrive\\מסמכים\\gym-rutiKroivets\\gym-rutiKroivets\\gym-rutiKroivets.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

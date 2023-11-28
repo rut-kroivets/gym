@@ -230,11 +230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\שנה ב תשפד\\דוטנט\\gym-rutiKroivets\\gym-rutiKroivets\\gym-rutiKroivets.csproj",
+      "projectUniqueName": "C:\\Users\\user1\\OneDrive\\מסמכים\\gym-rutiKroivets\\gym-rutiKroivets\\gym-rutiKroivets.csproj",
       "projectName": "gym-rutiKroivets",
-      "projectPath": "E:\\שנה ב תשפד\\דוטנט\\gym-rutiKroivets\\gym-rutiKroivets\\gym-rutiKroivets.csproj",
+      "projectPath": "C:\\Users\\user1\\OneDrive\\מסמכים\\gym-rutiKroivets\\gym-rutiKroivets\\gym-rutiKroivets.csproj",
       "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "E:\\שנה ב תשפד\\דוטנט\\gym-rutiKroivets\\gym-rutiKroivets\\obj\\",
+      "outputPath": "C:\\Users\\user1\\OneDrive\\מסמכים\\gym-rutiKroivets\\gym-rutiKroivets\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
