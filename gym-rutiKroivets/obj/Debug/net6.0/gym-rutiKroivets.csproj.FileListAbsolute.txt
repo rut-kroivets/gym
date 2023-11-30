@@ -52,3 +52,30 @@ E:\שנה ב תשפד\דוטנט\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net
 E:\שנה ב תשפד\דוטנט\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.pdb
 E:\שנה ב תשפד\דוטנט\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.genruntimeconfig.cache
 E:\שנה ב תשפד\דוטנט\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\ref\gym-rutiKroivets.dll
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\bin\Debug\net6.0\appsettings.json
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\bin\Debug\net6.0\gym-rutiKroivets.exe
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\bin\Debug\net6.0\gym-rutiKroivets.deps.json
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\bin\Debug\net6.0\gym-rutiKroivets.runtimeconfig.json
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\bin\Debug\net6.0\gym-rutiKroivets.dll
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\bin\Debug\net6.0\gym-rutiKroivets.pdb
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.csproj.AssemblyReference.cache
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.AssemblyInfoInputs.cache
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.AssemblyInfo.cs
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.csproj.CoreCompileInputs.cache
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\scopedcss\bundle\gym-rutiKroivets.styles.css
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.csproj.CopyComplete
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.dll
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\refint\gym-rutiKroivets.dll
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.pdb
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\gym-rutiKroivets.genruntimeconfig.cache
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\gym-rutiKroivets\obj\Debug\net6.0\ref\gym-rutiKroivets.dll

@@ -10,19 +10,23 @@ namespace gym_rutiKroivets.Controllers
     [ApiController]
     public class StudentController : ControllerBase
     {
-        private static int Sid = 0;
-        public static List<Student> students = new List<Student> { new Student { Id = ++Sid, Name = "defult", Address = "hadasim", Age = 0 } };
+        private readonly IDataContext _dataContext; 
+        public StudentController(IDataContext context)
+        {
+            _dataContext = context;
+        }
+    
         // GET: api/<ValuesController>
         [HttpGet]
         public IEnumerable<Student> Get()
         {
-            return students;
+            return _dataContext.students;
         }
         // GET: api/<ValuesController>
         [HttpGet("{id}")]
         public ActionResult<Student> Get(int id)
         {
-            var stud= students.Find(s => s.Id == id);
+            var stud= _dataContext.students.Find(s => s.Id == id);
             if (stud == null)
                 return NotFound();
             else
@@ -34,15 +38,16 @@ namespace gym_rutiKroivets.Controllers
         [HttpPost]
         public void Post([FromBody] Student s)
         {
-            s.Id = ++Sid;
-            students.Add(s);
+           var x= _dataContext.students.Max(s => s.Id); 
+            s.Id = ++x;
+            _dataContext.students.Add(s);
         }
 
         // PUT api/<ValuesController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] Student s)
         {
-            var stud = students.Find(s => s.Id == id);
+            var stud = _dataContext.students.Find(s => s.Id == id);
             stud.Name = s.Name;
             stud.Address = s.Address;
             stud.Age = s.Age;
@@ -52,8 +57,8 @@ namespace gym_rutiKroivets.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            var stud = students.Find(s => s.Id == id);
-            students.Remove(stud);
+            var stud = _dataContext.students.Find(s => s.Id == id);
+            _dataContext.students.Remove(stud);
         }
     }
 }

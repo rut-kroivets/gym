@@ -10,19 +10,22 @@ namespace gym_rutiKroivets.Controllers
     [ApiController]
     public class TrainingController : ControllerBase
     {
-        private static int Tid = 0;
-        public static List<Training> trainings = new List<Training> { new Training { Id = ++Tid, Title = "defult", Day=0,Hour=0,Guid= new Guide { Id = 0, Name = "defult", Address = "hadasim", Seniority = 0 },  Students = new List<Student> { new Student { Id = 2, Name = "rivki", Address = "Pardo", Age = 19 } } } };
+        private readonly IDataContext _dataContext;
+        public TrainingController(IDataContext context)
+        {
+            _dataContext=context;   
+        }
         // GET: api/<ValuesController>
         [HttpGet]
         public IEnumerable<Training> Get()
         {
-            return trainings;
+            return _dataContext.trainings;
         }
         // GET: api/<ValuesController>
         [HttpGet("{id}/Day")]
         public ActionResult<IEnumerable<Training>> Get(int id, [FromBody] int day)
         {
-            var train = trainings.FindAll(g => g.Day == day);
+            var train = _dataContext.trainings.FindAll(g => g.Day == day);
             if (train == null)
                 return NotFound();
             else
@@ -33,15 +36,16 @@ namespace gym_rutiKroivets.Controllers
         [HttpPost]
         public void Post([FromBody] Training t)
         {
-            t.Id = ++Tid;
-            trainings.Add(t);
+            var x = _dataContext.trainings.Max(e => e.Id);
+            t.Id = ++x;
+            _dataContext.trainings.Add(t);
         }
 
         // PUT api/<ValuesController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] Training t)
         {
-            var train = trainings.Find(i => i.Id == id);
+            var train = _dataContext.trainings.Find(i => i.Id == id);
             train.Title = t.Title;
             train.Day = t.Day;
             train.Hour = t.Hour;
@@ -51,8 +55,8 @@ namespace gym_rutiKroivets.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            var train = trainings.Find(i => i.Id == id);
-            trainings.Remove(train);
+            var train = _dataContext.trainings.Find(i => i.Id == id);
+            _dataContext.trainings.Remove(train);
         }
     }
 }
