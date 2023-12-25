@@ -9,53 +9,44 @@ namespace gym_rutiKroivets.Controllers
     [ApiController]
     public class GuideController : ControllerBase
     {
-        private readonly IDataContext _dataContext;
-        public GuideController( IDataContext context)
+        private readonly IGuideService _guideService;
+
+        public GuideController(IGuideService guideService)
         {
-            _dataContext = context; 
+            _guideService = guideService;
         }
         // GET: api/<ValuesController>
         [HttpGet]
         public IEnumerable<Guide> Get()
         {
-            return _dataContext.guides;
+            return _guideService.Get();
         }
         // GET: api/<ValuesController>
         [HttpGet("{id}")]
         public ActionResult<Guide> Get(int id)
         {
-            var guid= _dataContext.guides.Find(g => g.Id == id);
-            if (guid == null)
-                return NotFound();
-            else
-                return guid;
+            return _guideService.Get(id);
         }
 
         // POST api/<ValuesController>
         [HttpPost]
         public void Post([FromBody] Guide g)
         {
-            var x = _dataContext.guides.Max(e => e.Id);
-            g.Id =++x;
-            _dataContext.guides.Add(g);
+            return _guideService.Post(g);   
         }
 
         // PUT api/<ValuesController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] Guide g)
         {
-            var guide = _dataContext.guides.Find(i => i.Id == id);
-            guide.Name = g.Name;
-            guide.Address = g.Address;
-            guide.Seniority = g.Seniority;
+            return _guideService.Put(id, g);    
         }
 
         // DELETE api/<ValuesController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            var guide = _dataContext.guides.Find(i => i.Id == id);
-            _dataContext.guides.Remove(guide);
+           return _guideService.Delete(id); 
         }
     }
 }

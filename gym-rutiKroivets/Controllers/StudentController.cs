@@ -10,27 +10,23 @@ namespace gym_rutiKroivets.Controllers
     [ApiController]
     public class StudentController : ControllerBase
     {
-        private readonly IDataContext _dataContext; 
-        public StudentController(IDataContext context)
+        private readonly IStudentService _studentService; 
+        public StudentController(IStudentService context)
         {
-            _dataContext = context;
+            _studentService = context;
         }
     
         // GET: api/<ValuesController>
         [HttpGet]
         public IEnumerable<Student> Get()
         {
-            return _dataContext.students;
+            return _studentService.Get();
         }
         // GET: api/<ValuesController>
         [HttpGet("{id}")]
         public ActionResult<Student> Get(int id)
         {
-            var stud= _dataContext.students.Find(s => s.Id == id);
-            if (stud == null)
-                return NotFound();
-            else
-                return stud;
+            return _studentService.Get(id);
 
         }
 
@@ -38,27 +34,21 @@ namespace gym_rutiKroivets.Controllers
         [HttpPost]
         public void Post([FromBody] Student s)
         {
-           var x= _dataContext.students.Max(s => s.Id); 
-            s.Id = ++x;
-            _dataContext.students.Add(s);
+            _studentService.Post(s);    
         }
 
         // PUT api/<ValuesController>/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] Student s)
         {
-            var stud = _dataContext.students.Find(s => s.Id == id);
-            stud.Name = s.Name;
-            stud.Address = s.Address;
-            stud.Age = s.Age;
+            _studentService.Put(id, s); 
         }
 
         // DELETE api/<ValuesController>/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-            var stud = _dataContext.students.Find(s => s.Id == id);
-            _dataContext.students.Remove(stud);
+            _studentService.Delete(id); 
         }
     }
 }

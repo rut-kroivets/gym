@@ -1,0 +1,12 @@
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\Gym.Core\bin\Debug\net6.0\Gym.Core.deps.json
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\Gym.Core\bin\Debug\net6.0\Gym.Core.dll
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\Gym.Core\bin\Debug\net6.0\Gym.Core.pdb
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\Gym.Core\obj\Debug\net6.0\Gym.Core.csproj.AssemblyReference.cache
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\Gym.Core\obj\Debug\net6.0\Gym.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\Gym.Core\obj\Debug\net6.0\Gym.Core.AssemblyInfoInputs.cache
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\Gym.Core\obj\Debug\net6.0\Gym.Core.AssemblyInfo.cs
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\Gym.Core\obj\Debug\net6.0\Gym.Core.csproj.CoreCompileInputs.cache
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\Gym.Core\obj\Debug\net6.0\Gym.Core.dll
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\Gym.Core\obj\Debug\net6.0\refint\Gym.Core.dll
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\Gym.Core\obj\Debug\net6.0\Gym.Core.pdb
+C:\Users\user1\OneDrive\מסמכים\gym-rutiKroivets\Gym.Core\obj\Debug\net6.0\ref\Gym.Core.dll
