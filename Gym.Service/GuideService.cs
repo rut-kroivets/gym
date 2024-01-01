@@ -1,4 +1,6 @@
-﻿using gym_rutiKroivets;
+﻿using Gym.Core.Repository;
+using Gym.Core.Service;
+using gym_rutiKroivets;
 using gym_rutiKroivets.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -9,18 +11,18 @@ using System.Threading.Tasks;
 
 namespace Gym.Service
 {
-    internal class GuideService: IGuideService
+    public class GuideService: IGuideService
     {
-        //private readonly IGuideRepository _guideRepository;
-        //public GuideService(IGuideRepository context)
-        //{
-        //    _guideRepository = context;
-        //}
-        //public Guide Get()
-        //{
-        //    return _guideRepository.Get();
-        //}
-        
+        private readonly IGuideRepository _guideRepository;
+        public GuideService(IGuideRepository context1)
+        {
+            _guideRepository = context1;
+        }
+        public IEnumerable<Guide> Get()
+        {
+            return _guideRepository.Get();
+        }
+
         //public ActionResult<Guide> Get(int id)
         //{
         //    return _guideRepository.Get(id);
