@@ -11,34 +11,34 @@ namespace Gym.Service
 {
     internal class GuideService: IGuideService
     {
-        private readonly IGuideRepository _guideRepository;
-        public GuideService(IGuideRepository context)
-        {
-            _guideRepository = context;
-        }
-        public Guide Get()
-        {
-            return _guideRepository.Get();
-        }
+        //private readonly IGuideRepository _guideRepository;
+        //public GuideService(IGuideRepository context)
+        //{
+        //    _guideRepository = context;
+        //}
+        //public Guide Get()
+        //{
+        //    return _guideRepository.Get();
+        //}
         
-        public ActionResult<Guide> Get(int id)
-        {
-            return _guideRepository.Get(id);
-        }
+        //public ActionResult<Guide> Get(int id)
+        //{
+        //    return _guideRepository.Get(id);
+        //}
 
-        public void Post( Guide g)
-        {
-            return _guideRepository.Post(g);   
-        }
+        //public void Post( Guide g)
+        //{
+        //    return _guideRepository.Post(g);   
+        //}
 
-        public void Put(int id, Guide g)
-        {
-            return _guideRepository.Put(id, g);
-        }
+        //public void Put(int id, Guide g)
+        //{
+        //    return _guideRepository.Put(id, g);
+        //}
 
-        public void Delete(int id)
-        {
-            return _guideRepository.Delete(id); 
-        }
+        //public void Delete(int id)
+        //{
+        //    return _guideRepository.Delete(id); 
+        //}
     }
 }

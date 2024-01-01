@@ -1,3 +1,5 @@
+using Gym.Core.Service;
+using Gym.Service;
 using gym_rutiKroivets;
 
 var builder = WebApplication.CreateBuilder(args);
